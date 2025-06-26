@@ -10,7 +10,7 @@
 
 ### ### Running POC ###
 1. Activate the virtual environment in two different terminal tabs with `source .venv/bin/activate` from project root.
-2. Run `uvicorn main:app --reload --host 0.0.0.0 --port 8000` from one tab to bring the fastapi server up.
-3. Open `http://0.0.0.0:8000/hello` in your browser to see the message.
+2. Run `uvicorn main:app --reload --host 127.0.0.1 --port 8000` from one tab to bring the fastapi server up.
+3. Open `http://127.0.0.1:8000/hello` in your browser to see the message.
 4. Navigate to `fastapi_test/flutter_frontend` on the other terminal tab.
 5. Run `flutter run` to launch the app and see that same message.
