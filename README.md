@@ -1,8 +1,9 @@
 ## Repository for Testing a FastAPI Server with Flutter
 ### ### Prerequisites ###
-1. Choose your preferred way to [install the Flutter SDK](https://docs.flutter.dev/install).
-2. Choose your preferred way to [install uv](https://docs.astral.sh/uv/getting-started/installation/).
-3. Clone this repository to local.
+1. Clone this repository to local.
+2. Choose your preferred way to [install the Flutter SDK](https://docs.flutter.dev/install) into the flutter_sdk directory.
+3. Add the flutter bin directory to your environment PATH.
+3. Choose your preferred way to [install uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ### ### Environment Initialization ###
 1. Run [uv sync](https://docs.astral.sh/uv/guides/integration/github/#syncing-and-running) from within fastapi_test.
